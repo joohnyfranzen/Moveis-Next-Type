@@ -1,0 +1,19 @@
+.moveis{
+    text-align: center;
+}
+.grid_moveis{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.grid_movel p{
+    font-weight: bold;
+}
+.grid_movel{
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
